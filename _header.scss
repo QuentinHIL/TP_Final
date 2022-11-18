@@ -4,34 +4,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    @media only screen and (max-width: 1024px) {
-        width: 100%;
+    @media only screen and (max-width: 1024px){
+        width:100%;
     }
-
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 700px){
         overflow: hidden;
         position: relative;
     }
 
     #contlogotitre {
-        width: 25%;
+        width:25%;
         display: flex;
         align-items: center;
         @include textancre;
-
-        @media only screen and (max-width: 700px) {
-            width: 50%;
+        @media only screen and (max-width: 700px){
+            width:50%;
         }
 
         h1 {
             @include raleway900;
-
-            @media only screen and (max-width: 768px) {
+            
+            @media only screen and (max-width: 768px){
                 font-size: 1.5rem;
             }
 
-            @media only screen and (max-width: 700px) {
+            @media only screen and (max-width: 700px){
                 font-size: 1rem;
             }
 
@@ -46,57 +43,47 @@ header {
         width: 60%;
         display: flex;
         justify-content: end;
-
-        @media only screen and (max-width: 700px) {
-            padding-right: 0.5rem;
+        @media only screen and (max-width: 700px){
+        padding-right: 0.5rem;
         }
 
         #contliste {
             width: 50%;
-
-            @media only screen and (max-width: 1300px) {
-                width: 60%;
+            @media only screen and (max-width: 1300px){
+                width:60%;
             }
-
-            @media only screen and (max-width: 1200px) {
-                width: 70%;
+            @media only screen and (max-width: 1200px){
+                width:70%;
+                }
+            @media only screen and (max-width: 1024px){
+                width:80%;
             }
-
-            @media only screen and (max-width: 1024px) {
-                width: 80%;
+            @media only screen and (max-width:700px){
+                display:none;
             }
-
-            @media only screen and (max-width:700px) {
-                display: none;
-            }
-
             ul {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-
-                @media only screen and (max-width: 1024px) {
-                    display: flex;
-                    justify-content: space-around
+                @media only screen and (max-width: 1024px){
+                    display:flex;
+                    justify-content:space-around
                 }
-
-                @media only screen and (max-width: 700px) {
+                @media only screen and (max-width: 700px){
                     flex-direction: column;
                     align-items: flex-end;
 
                 }
-
                 li {
                     list-style: none;
                     @include raleway800;
 
                     a {
                         @include textancre;
-
-                        @media only screen and (max-width: 768px) {
+                        @media only screen and (max-width: 768px){
                             font-size: 0.75rem;
-                        }
+                            }
                     }
 
                     hr {
@@ -109,13 +96,10 @@ header {
                 }
             }
         }
-
-        #boutonmenuburger {
+        #boutonmenuburger{
             color: $prim;
             align-items: center;
-
-            @media only screen and (min-width: 700px),
-            only screen and (max-width: infinite) {
+            @media only screen and (min-width: 700px), only screen and (max-width: infinite){
                 display: none;
             }
         }
@@ -125,9 +109,8 @@ header {
         width: 15%;
         display: flex;
         justify-content: center;
-
-        @media only screen and (max-width: 700px) {
-            width: 25%;
+        @media only screen and (max-width: 700px){
+            width:25%;
         }
 
         button {
@@ -141,10 +124,9 @@ header {
             background-color: $prim;
             align-items: center;
             @include raleway800;
-
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 768px){
                 font-size: 0.75rem;
-            }
+                }
         }
     }
 }

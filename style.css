@@ -210,7 +210,7 @@ header #contbouton button {
 }
 @media only screen and (max-width: 768px) {
   #premieresection #contgauche h2 {
-    font-size: 2.5rem;
+    font-size: 2.35rem;
   }
 }
 #premieresection #contgauche p {
@@ -285,6 +285,7 @@ header #contbouton button {
   padding-top: 5%;
   font-size: 4rem;
   color: white;
+  text-align: center;
   font-family: "Playfair Display", serif;
   font-weight: 900;
 }

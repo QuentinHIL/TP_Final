@@ -1,0 +1,169 @@
+#deuxiemesection {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    #contvideo {
+        width: 60%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-image: url(./assets/image_section2_1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5%;
+        padding-top: 5%;
+
+        @media only screen and (max-width: 1024px) {
+            width: 80%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            width: 95%;
+        }
+
+        h2 {
+            padding-bottom: 2%;
+            padding-top: 5%;
+            font-size: 4rem;
+            color: white;
+            @include playfairdisplay;
+
+            @media only screen and (max-width: 768px) {
+                font-size: 2.5rem;
+            }
+
+            @media only screen and (max-width: 700px) {
+                font-size: 1.5rem;
+            }
+
+        }
+
+        button {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 5%;
+            padding-right: 5%;
+            color: $prim;
+            border-style: solid;
+            border-color: $prim;
+            background-color: white;
+            align-items: center;
+            @include raleway800;
+            margin-bottom: 6%;
+
+            @media only screen and (max-width: 700px) {
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    #contarticles {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            width: 90%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contarticlephoto {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+
+            @media only screen and (max-width: 1024px) {
+                width: 100%;
+            }
+
+            @media only screen and (max-width: 700px) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .articlephoto {
+                width: 40%;
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+                @media only screen and (max-width: 700px) {
+                    width: 80%;
+                    margin-bottom: 10%;
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .centretexte {
+                    width: 80%;
+                    margin: auto;
+
+                    p {
+                        @include raleway500;
+
+                        @media only screen and (max-width: 768px) {
+                            font-size: 0.75rem;
+                        }
+                    }
+
+                    a {
+                        @include raleway800;
+                        color: $prim;
+                    }
+                }
+            }
+        }
+
+        #articlesansphoto {
+            width: 40%;
+            display: flex;
+            justify-content: flex-start;
+
+            @media only screen and (max-width: 700px) {
+                width: 90%;
+            }
+
+            article {
+                h3 {
+                    margin-top: 0;
+                    @include playfairdisplay;
+                    font-size: 3rem;
+
+                    @media only screen and (max-width: 1024px) {
+                        font-size: 2.5rem;
+                    }
+
+                    @media only screen and (max-width: 768px) {
+                        font-size: 1.75rem;
+                    }
+
+                    @media only screen and (max-width: 700px) {
+                        width: 90%;
+                    }
+                }
+
+                p {
+                    @include raleway500;
+
+                    @media only screen and (max-width: 768px) {
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}

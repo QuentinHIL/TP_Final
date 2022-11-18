@@ -1,0 +1,51 @@
+#quatriemesection {
+    background-color: $prim;
+
+    #contsectionquatre {
+        padding-top: 3%;
+        padding-bottom: 10%;
+        width: 40%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @media only screen and (max-width: 1024px) {
+            width: 60%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            width: 70%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            width: 80%;
+
+        }
+
+        h2 {
+            @include playfairdisplay;
+            font-size: 3.5rem;
+            color: white;
+            text-align: center;
+
+            @media only screen and (max-width: 700px) {
+                font-size: 2.5rem;
+            }
+        }
+
+        button {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 5%;
+            padding-right: 5%;
+            color: $prim;
+            border-style: solid;
+            border-color: $prim;
+            background-color: white;
+            align-items: center;
+            @include raleway800;
+        }
+    }
+}

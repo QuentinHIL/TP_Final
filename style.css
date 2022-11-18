@@ -1,0 +1,891 @@
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header {
+    overflow: hidden;
+    position: relative;
+  }
+}
+header #contlogotitre {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 700px) {
+  header #contlogotitre {
+    width: 50%;
+  }
+}
+header #contlogotitre h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+@media only screen and (max-width: 768px) {
+  header #contlogotitre h1 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header #contlogotitre h1 {
+    font-size: 1rem;
+  }
+}
+header #contlogotitre h1 a {
+  text-decoration: none;
+  color: black;
+}
+header #placeliste {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+}
+@media only screen and (max-width: 700px) {
+  header #placeliste {
+    padding-right: 0.5rem;
+  }
+}
+header #placeliste #contliste {
+  width: 50%;
+}
+@media only screen and (max-width: 1300px) {
+  header #placeliste #contliste {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  header #placeliste #contliste {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  header #placeliste #contliste {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header #placeliste #contliste {
+    display: none;
+  }
+}
+header #placeliste #contliste ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  header #placeliste #contliste ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header #placeliste #contliste ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+header #placeliste #contliste ul li {
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+header #placeliste #contliste ul li a {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  header #placeliste #contliste ul li a {
+    font-size: 0.75rem;
+  }
+}
+header #placeliste #contliste ul li hr {
+  margin-top: 0;
+  border-style: solid;
+  border-color: #4BA87D;
+  background-color: #4BA87D;
+  align-items: flex-end;
+}
+header #placeliste #boutonmenuburger {
+  color: #4BA87D;
+  align-items: center;
+}
+@media only screen and (min-width: 700px), only screen and (max-width: infinite) {
+  header #placeliste #boutonmenuburger {
+    display: none;
+  }
+}
+header #contbouton {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+  header #contbouton {
+    width: 25%;
+  }
+}
+header #contbouton button {
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: none;
+  color: white;
+  background-color: #4BA87D;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+@media only screen and (max-width: 768px) {
+  header #contbouton button {
+    font-size: 0.75rem;
+  }
+}
+
+#premieresection {
+  padding-top: 5%;
+  background-image: url(./assets/image_section1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+@media only screen and (max-width: 1300px) {
+  #premieresection {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #premieresection {
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #premieresection {
+    background-position: right center;
+    background-position-y: 40%;
+  }
+}
+#premieresection #contgauche {
+  padding-bottom: 5%;
+  width: 55%;
+  z-index: 1;
+}
+@media only screen and (max-width: 768px) {
+  #premieresection #contgauche {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #premieresection #contgauche {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #premieresection #contgauche {
+    width: 100%;
+  }
+}
+#premieresection #contgauche h2 {
+  margin-bottom: 5%;
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+@media only screen and (max-width: 768px) {
+  #premieresection #contgauche h2 {
+    font-size: 2.5rem;
+  }
+}
+#premieresection #contgauche p {
+  font-size: 1rem;
+  width: 70%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+#premieresection #contgauche #contboutonsectionune {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+#premieresection #contgauche #contboutonsectionune #trynow {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 9%;
+  padding-right: 9%;
+  color: white;
+  border-style: solid;
+  border-color: #4BA87D;
+  background-color: #4BA87D;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+#premieresection #contgauche #contboutonsectionune #getademo {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  color: #4BA87D;
+  border-style: solid;
+  border-color: #4BA87D;
+  background-color: white;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+#deuxiemesection {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#deuxiemesection #contvideo {
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: url(./assets/image_section2_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+@media only screen and (max-width: 1024px) {
+  #deuxiemesection #contvideo {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contvideo {
+    width: 95%;
+  }
+}
+#deuxiemesection #contvideo h2 {
+  padding-bottom: 2%;
+  padding-top: 5%;
+  font-size: 4rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+@media only screen and (max-width: 768px) {
+  #deuxiemesection #contvideo h2 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contvideo h2 {
+    font-size: 1.5rem;
+  }
+}
+#deuxiemesection #contvideo button {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #4BA87D;
+  border-style: solid;
+  border-color: #4BA87D;
+  background-color: white;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  margin-bottom: 6%;
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contvideo button {
+    font-size: 0.75rem;
+  }
+}
+#deuxiemesection #contarticles {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  #deuxiemesection #contarticles {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #deuxiemesection #contarticles {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contarticles {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#deuxiemesection #contarticles #contarticlephoto {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1024px) {
+  #deuxiemesection #contarticles #contarticlephoto {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contarticles #contarticlephoto {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#deuxiemesection #contarticles #contarticlephoto .articlephoto {
+  width: 40%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contarticles #contarticlephoto .articlephoto {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+}
+#deuxiemesection #contarticles #contarticlephoto .articlephoto img {
+  width: 100%;
+  height: auto;
+}
+#deuxiemesection #contarticles #contarticlephoto .articlephoto .centretexte {
+  width: 80%;
+  margin: auto;
+}
+#deuxiemesection #contarticles #contarticlephoto .articlephoto .centretexte p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+@media only screen and (max-width: 768px) {
+  #deuxiemesection #contarticles #contarticlephoto .articlephoto .centretexte p {
+    font-size: 0.75rem;
+  }
+}
+#deuxiemesection #contarticles #contarticlephoto .articlephoto .centretexte a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: #4BA87D;
+}
+#deuxiemesection #contarticles #articlesansphoto {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contarticles #articlesansphoto {
+    width: 90%;
+  }
+}
+#deuxiemesection #contarticles #articlesansphoto article h3 {
+  margin-top: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 1024px) {
+  #deuxiemesection #contarticles #articlesansphoto article h3 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #deuxiemesection #contarticles #articlesansphoto article h3 {
+    font-size: 1.75rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #deuxiemesection #contarticles #articlesansphoto article h3 {
+    width: 90%;
+  }
+}
+#deuxiemesection #contarticles #articlesansphoto article p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+@media only screen and (max-width: 768px) {
+  #deuxiemesection #contarticles #articlesansphoto article p {
+    font-size: 0.75rem;
+  }
+}
+
+#troisiemesection #partiehaute {
+  padding-top: 5%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1024px) {
+  #troisiemesection #partiehaute {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiehaute {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#troisiemesection #partiehaute #frankie {
+  width: 28%;
+  background-image: url(./assets/frankie.png);
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiehaute #frankie {
+    width: 75%;
+    margin-bottom: 10%;
+  }
+}
+#troisiemesection #partiehaute #frankie h4 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+  padding-top: 45%;
+  font-size: 2rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+#troisiemesection #partiehaute #frankie span {
+  margin-left: 10%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+#troisiemesection #partiehaute #camile {
+  width: 28%;
+  background-image: url(./assets/camile.png);
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiehaute #camile {
+    width: 75%;
+    margin-bottom: 10%;
+  }
+}
+#troisiemesection #partiehaute #camile h4 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+  padding-top: 45%;
+  font-size: 2rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+#troisiemesection #partiehaute #camile span {
+  margin-left: 10%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+#troisiemesection #partiehaute #elayne {
+  width: 28%;
+  background-image: url(./assets/eleyna.png);
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiehaute #elayne {
+    width: 75%;
+  }
+}
+#troisiemesection #partiehaute #elayne h4 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+  padding-top: 45%;
+  font-size: 2rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+#troisiemesection #partiehaute #elayne span {
+  margin-left: 10%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+#troisiemesection #partiecentrale {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  #troisiemesection #partiecentrale {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #troisiemesection #partiecentrale {
+    width: 80%;
+  }
+}
+#troisiemesection #partiecentrale h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #troisiemesection #partiecentrale h3 {
+    font-size: 2rem;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiecentrale h3 {
+    font-size: 1.5rem;
+  }
+}
+#troisiemesection #partiecentrale div {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2%;
+}
+@media only screen and (max-width: 768px) {
+  #troisiemesection #partiecentrale div {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiecentrale div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#troisiemesection #partiecentrale div input {
+  width: 60%;
+  border-radius: 0.25rem;
+  border-style: solid;
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiecentrale div input {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
+#troisiemesection #partiecentrale div button {
+  width: 35%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  color: white;
+  border-style: solid;
+  border-color: #4BA87D;
+  background-color: #4BA87D;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiecentrale div button {
+    width: 80%;
+  }
+}
+#troisiemesection #partiecentrale span {
+  width: 70%;
+  margin: auto;
+  align-self: flex-start;
+  color: #4BA87D;
+}
+#troisiemesection #partiebasse {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  #troisiemesection #partiebasse {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #troisiemesection #partiebasse {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiebasse {
+    width: 90%;
+  }
+}
+#troisiemesection #partiebasse h3 {
+  padding-top: 5%;
+  width: 50%;
+  margin: auto;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  #troisiemesection #partiebasse h3 {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #troisiemesection #partiebasse h3 {
+    font-size: 2rem;
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiebasse h3 {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+}
+#troisiemesection #partiebasse div {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  #troisiemesection #partiebasse div {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+#troisiemesection #partiebasse div img {
+  margin-bottom: 5%;
+}
+
+#quatriemesection {
+  background-color: #4BA87D;
+}
+#quatriemesection #contsectionquatre {
+  padding-top: 3%;
+  padding-bottom: 10%;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1024px) {
+  #quatriemesection #contsectionquatre {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #quatriemesection #contsectionquatre {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #quatriemesection #contsectionquatre {
+    width: 80%;
+  }
+}
+#quatriemesection #contsectionquatre h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+}
+@media only screen and (max-width: 700px) {
+  #quatriemesection #contsectionquatre h2 {
+    font-size: 2.5rem;
+  }
+}
+#quatriemesection #contsectionquatre button {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #4BA87D;
+  border-style: solid;
+  border-color: #4BA87D;
+  background-color: white;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+#pied {
+  width: 80%;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  #pied {
+    width: 100%;
+  }
+}
+#pied #dessus {
+  padding-top: 5%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessus {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#pied #dessus #gauche {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessus #gauche {
+    justify-content: flex-end;
+  }
+}
+#pied #dessus #gauche h1 {
+  margin-top: 3%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+@media only screen and (max-width: 768px) {
+  #pied #dessus #gauche h1 {
+    font-size: 1.5rem;
+    padding-top: 4%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessus #gauche h1 {
+    font-size: 1rem;
+    justify-content: flex-start;
+  }
+}
+#pied #dessus #droite {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+  #pied #dessus #droite {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessus #droite {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+#pied #dessus #droite .col {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessus #droite .col {
+    width: 50%;
+    margin-bottom: 10%;
+  }
+}
+#pied #dessus #droite .col a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  #pied #dessus #droite .col a {
+    font-size: 0.85rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessus #droite .col a {
+    font-size: 0.75rem;
+  }
+}
+#pied hr {
+  width: 95%;
+}
+#pied #dessous {
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+}
+#pied #dessous div {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessous div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+#pied #dessous div span {
+  width: 60%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  #pied #dessous div span {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessous div span {
+    width: 90%;
+    font-size: 0.5rem;
+  }
+}
+#pied #dessous div #infos {
+  width: 30%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  #pied #dessous div #infos {
+    font-size: 0.75rem;
+  }
+}
+#pied #dessous div #infos a {
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width: 700px) {
+  #pied #dessous div #infos a {
+    font-size: 0.5rem;
+  }
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,247 @@
+#troisiemesection {
+    #partiehaute {
+        padding-top: 5%;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+
+        @media only screen and (max-width: 1024px) {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #frankie {
+            width: 28%;
+            background-image: url(./assets/frankie.png);
+            background-position: center;
+            background-size: cover;
+
+            @media only screen and (max-width: 700px) {
+                width: 75%;
+                margin-bottom: 10%;
+            }
+
+            h4 {
+                width: 80%;
+                margin: auto;
+                margin-bottom: 5%;
+                padding-top: 45%;
+                font-size: 2rem;
+                color: white;
+                @include raleway900;
+            }
+
+            span {
+                margin-left: 10%;
+                color: white;
+                @include raleway700;
+            }
+        }
+
+        #camile {
+            width: 28%;
+            background-image: url(./assets/camile.png);
+            background-position: center;
+            background-size: cover;
+
+            @media only screen and (max-width: 700px) {
+                width: 75%;
+                margin-bottom: 10%;
+            }
+
+            h4 {
+                width: 80%;
+                margin: auto;
+                margin-bottom: 5%;
+                padding-top: 45%;
+                font-size: 2rem;
+                color: white;
+                @include raleway900;
+            }
+
+            span {
+                margin-left: 10%;
+                color: white;
+                @include raleway700;
+            }
+        }
+
+        #elayne {
+            width: 28%;
+            background-image: url(./assets/eleyna.png);
+            background-position: center;
+            background-size: cover;
+
+            @media only screen and (max-width: 700px) {
+                width: 75%;
+            }
+
+            h4 {
+                width: 80%;
+                margin: auto;
+                margin-bottom: 5%;
+                padding-top: 45%;
+                font-size: 2rem;
+                color: white;
+                @include raleway900;
+            }
+
+            span {
+                margin-left: 10%;
+                color: white;
+                @include raleway700;
+            }
+        }
+    }
+
+    #partiecentrale {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            width: 80%;
+        }
+
+        h3 {
+            @include playfairdisplay;
+            font-size: 3rem;
+            text-align: center;
+
+            @media only screen and (max-width: 768px) {
+                font-size: 2rem;
+                width: 90%;
+            }
+
+            @media only screen and (max-width: 700px) {
+                font-size: 1.5rem;
+            }
+        }
+
+        div {
+            width: 75%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 2%;
+
+            @media only screen and (max-width: 768px) {
+                width: 80%;
+            }
+
+            @media only screen and (max-width: 700px) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            input {
+                width: 60%;
+                border-radius: 0.25rem;
+                border-style: solid;
+
+                @media only screen and (max-width: 700px) {
+                    width: 100%;
+                    margin-bottom: 5%;
+                }
+            }
+
+            button {
+                width: 35%;
+                padding-top: 3%;
+                padding-bottom: 3%;
+                padding-left: 7%;
+                padding-right: 7%;
+                color: white;
+                border-style: solid;
+                border-color: $prim;
+                background-color: $prim;
+                align-items: center;
+                @include raleway800;
+
+                @media only screen and (max-width: 700px) {
+                    width: 80%;
+                }
+            }
+        }
+
+        span {
+            width: 70%;
+            margin: auto;
+            align-self: flex-start;
+            color: $prim;
+        }
+    }
+
+    #partiebasse {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media only screen and (max-width: 1024px) {
+            width: 80%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            width: 90%;
+        }
+
+        h3 {
+            padding-top: 5%;
+            width: 50%;
+            margin: auto;
+            font-size: 3rem;
+            @include playfairdisplay;
+            text-align: center;
+
+            @media only screen and (max-width: 1024px) {
+                width: 80%;
+            }
+
+            @media only screen and (max-width: 768px) {
+                font-size: 2rem;
+                width: 50%;
+            }
+
+            @media only screen and (max-width: 700px) {
+                width: 80%;
+                font-size: 1.5rem;
+            }
+        }
+
+        div {
+            padding-top: 5%;
+            padding-bottom: 10%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+
+            @media only screen and (max-width: 700px) {
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            img {
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

@@ -105,11 +105,29 @@ header #placeliste #contliste ul li {
 header #placeliste #contliste ul li a {
   text-decoration: none;
   color: black;
+  position: relative;
 }
 @media only screen and (max-width: 768px) {
   header #placeliste #contliste ul li a {
     font-size: 0.75rem;
   }
+}
+header #placeliste #contliste ul li a::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  opacity: 0;
+  background-color: #4BA87D;
+  transform-origin: center;
+  transform: translate(-50%, 0) scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+header #placeliste #contliste ul li a:hover::before {
+  transform: translate(-50%, 0) scaleX(1);
+  opacity: 1;
 }
 header #placeliste #contliste ul li hr {
   margin-top: 0;

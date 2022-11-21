@@ -37,6 +37,7 @@
         }
 
         button {
+            font-size: 1.25rem;
             padding-top: 2%;
             padding-bottom: 2%;
             padding-left: 5%;
@@ -47,6 +48,9 @@
             background-color: white;
             align-items: center;
             @include raleway800;
+            @media only screen and (max-width: 700px){
+                font-size: 0.75rem;
+            }
         }
     }
 }

@@ -156,6 +156,7 @@ header #contbouton {
   }
 }
 header #contbouton button {
+  font-size: 1rem;
   margin-bottom: 10%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -278,7 +279,7 @@ header #contbouton button {
   }
 }
 #premieresection #contgauche #contboutonsectionune #getademo {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 10%;
@@ -346,6 +347,7 @@ header #contbouton button {
   }
 }
 #deuxiemesection #contvideo button {
+  font-size: 1.25rem;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 5%;
@@ -631,7 +633,7 @@ header #contbouton button {
   }
 }
 #troisiemesection #partiecentrale div input {
-  width: 60%;
+  width: 55%;
   border-radius: 0.25rem;
   border-style: solid;
 }
@@ -642,7 +644,8 @@ header #contbouton button {
   }
 }
 #troisiemesection #partiecentrale div button {
-  width: 35%;
+  font-size: 1rem;
+  width: 38%;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 7%;
@@ -657,11 +660,12 @@ header #contbouton button {
 }
 @media only screen and (max-width: 700px) {
   #troisiemesection #partiecentrale div button {
-    width: 80%;
+    width: 60%;
+    font-size: 0.75rem;
   }
 }
 #troisiemesection #partiecentrale span {
-  width: 70%;
+  width: 60%;
   margin: auto;
   align-self: flex-start;
   color: #4BA87D;
@@ -782,6 +786,7 @@ header #contbouton button {
   }
 }
 #quatriemesection #contsectionquatre button {
+  font-size: 1.25rem;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 5%;
@@ -793,6 +798,11 @@ header #contbouton button {
   align-items: center;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+}
+@media only screen and (max-width: 700px) {
+  #quatriemesection #contsectionquatre button {
+    font-size: 0.75rem;
+  }
 }
 
 #pied {

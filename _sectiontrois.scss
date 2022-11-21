@@ -148,7 +148,7 @@
             }
 
             input {
-                width: 60%;
+                width: 55%;
                 border-radius: 0.25rem;
                 border-style: solid;
 
@@ -159,7 +159,8 @@
             }
 
             button {
-                width: 35%;
+                font-size: 1rem;
+                width: 38%;
                 padding-top: 3%;
                 padding-bottom: 3%;
                 padding-left: 7%;
@@ -172,13 +173,14 @@
                 @include raleway800;
 
                 @media only screen and (max-width: 700px) {
-                    width: 80%;
+                    width: 60%;
+                    font-size: 0.75rem;
                 }
             }
         }
 
         span {
-            width: 70%;
+            width: 60%;
             margin: auto;
             align-self: flex-start;
             color: $prim;

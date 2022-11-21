@@ -196,7 +196,6 @@
     // Conteneur Titre+LogoClients
     #partiebasse {
         width: 60%;
-        padding-top: 5%;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -211,6 +210,7 @@
         }
 
         @media only screen and (max-width: 700px) {
+            padding-top: 5%;
             width: 90%;
         }
 
@@ -238,7 +238,7 @@
         }
 
         div {
-            padding-top: 10%;
+            padding-top: 5%;
             padding-bottom: 10%;
             width: 100%;
             display: flex;
@@ -247,6 +247,7 @@
             align-items: center;
 
             @media only screen and (max-width: 700px) {
+                padding-top: 10%;
                 justify-content: space-around;
                 align-items: center;
             }

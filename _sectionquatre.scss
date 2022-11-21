@@ -48,6 +48,9 @@
             background-color: white;
             align-items: center;
             @include raleway800;
+            @media only screen and (max-width: 768px){
+                font-size: 1rem;
+                }
             @media only screen and (max-width: 700px){
                 font-size: 0.75rem;
             }

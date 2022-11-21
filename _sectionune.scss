@@ -4,7 +4,7 @@
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right bottom;
-    width: 80%;
+    width: 75%;
     margin: auto;
     display: flex;
 
@@ -26,15 +26,15 @@
         width: 55%;
         z-index: 1;
 
-        @media only screen and (max-width: 768px) {
-            width: 50%;
-        }
-
         @media only screen and (max-width: 1024px) {
             width: 60%;
         }
 
-        @media only screen and (max-width: 700px) {
+        @media only screen and (max-width: 768px) {
+            width: 70%;
+        }
+
+        @media only screen and (max-width: 560px) {
             width: 100%;
         }
 
@@ -44,45 +44,63 @@
             @include playfairdisplay;
 
             @media only screen and (max-width: 768px) {
-                font-size: 2.35rem;
+                font-size: 3.2rem;
+            }
+            @media only screen and (max-width: 700px){
+                font-size: 2rem;
             }
         }
 
         p {
             font-size: 1rem;
-            width: 70%;
+            width: 80%;
             @include raleway500;
+            @media only screen and (max-width: 560px){
+                width: 100%;
+            }
         }
 
         #contboutonsectionune {
-            width: 65%;
+            width: 80%;
             display: flex;
             justify-content: space-between;
+            @media only screen and (max-width: 700px){
+                flex-direction: column;
+                width: 50%;
+            }
 
             #trynow {
+                font-size: 1.25rem;
                 padding-top: 3%;
                 padding-bottom: 3%;
-                padding-left: 9%;
-                padding-right: 9%;
+                padding-left: 12%;
+                padding-right: 12%;
                 color: white;
                 border-style: solid;
                 border-color: $prim;
                 background-color: $prim;
                 align-items: center;
                 @include raleway800;
+                @media only screen and (max-width: 992px){
+                    font-size: 1rem;
+                    }
             }
 
             #getademo {
+                font-size: 1.5rem;
                 padding-top: 3%;
                 padding-bottom: 3%;
-                padding-left: 7%;
-                padding-right: 7%;
+                padding-left: 10%;
+                padding-right: 10%;
                 color: $prim;
                 border-style: solid;
                 border-color: $prim;
                 background-color: white;
                 align-items: center;
                 @include raleway800;
+                @media only screen and (max-width: 992px){
+                    font-size: 1rem;
+                    }
             }
         }
     }

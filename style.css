@@ -400,6 +400,7 @@ header #contbouton button {
   #deuxiemesection #contarticles #contarticlephoto {
     flex-direction: column;
     align-items: center;
+    padding-top: 5%;
   }
 }
 #deuxiemesection #contarticles #contarticlephoto .articlephoto {
@@ -577,6 +578,7 @@ header #contbouton button {
   font-weight: 700;
 }
 #troisiemesection #partiecentrale {
+  padding-top: 5%;
   width: 60%;
   margin: auto;
   display: flex;

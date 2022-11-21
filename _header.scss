@@ -1,3 +1,4 @@
+// Début Header
 header {
     width: 90%;
     margin: auto;
@@ -11,7 +12,7 @@ header {
         overflow: hidden;
         position: relative;
     }
-
+    // Conteneur Logo + Titre
     #contlogotitre {
         width:25%;
         display: flex;
@@ -20,7 +21,7 @@ header {
         @media only screen and (max-width: 700px){
             width:50%;
         }
-
+        // Titre
         h1 {
             @include raleway900;
             
@@ -39,7 +40,7 @@ header {
             
         }
     }
-
+    // Division placement de la liste
     #placeliste {
         width: 60%;
         display: flex;
@@ -47,7 +48,7 @@ header {
         @media only screen and (max-width: 700px){
         padding-right: 0.5rem;
         }
-
+        // Conteneur liste
         #contliste {
             width: 50%;
             @media only screen and (max-width: 1300px){
@@ -98,6 +99,7 @@ header {
                 }
             }
         }
+        // Division Bouton Burger
         #boutonmenuburger{
             color: $prim;
             align-items: center;
@@ -106,7 +108,7 @@ header {
             }
         }
     }
-
+    // Conteneur Bouton SignUpFree
     #contbouton {
         width: 15%;
         display: flex;

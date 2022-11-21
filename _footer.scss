@@ -1,3 +1,4 @@
+// Début du Footer
 #pied {
     width: 80%;
     margin: auto;
@@ -5,7 +6,7 @@
     @media only screen and (max-width: 1024px) {
         width: 100%;
     }
-
+    // Partie Logo+Titre et Listes
     #dessus {
         padding-top: 5%;
         padding-bottom: 2%;
@@ -16,7 +17,7 @@
             flex-direction: column;
             align-items: center;
         }
-
+        // Partie gauche = Logo+Titre
         #gauche {
             width: 30%;
             display: flex;
@@ -42,7 +43,7 @@
                 }
             }
         }
-
+        // Partie droite = Listes
         #droite {
             width: 40%;
             display: flex;
@@ -84,16 +85,16 @@
             }
         }
     }
-
+    // Ligne de séparation
     hr {
         width: 95%;
     }
-
+    // Partie Termes et Conditions
     #dessous {
         padding-bottom: 3%;
         display: flex;
         flex-direction: column;
-
+        // Conteneur éléments gauche et droite 
         div {
             display: flex;
             justify-content: space-around;
@@ -103,7 +104,7 @@
                 align-items: center;
                 text-align: center;
             }
-
+            // Tout droits réservés
             span {
                 width: 60%;
                 @include raleway700;
@@ -117,7 +118,7 @@
                     font-size: 0.5rem;
                 }
             }
-
+            // Termes et conditions, confidentialité
             #infos {
                 width: 30%;
                 @include raleway700;

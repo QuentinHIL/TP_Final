@@ -1,7 +1,8 @@
+// Début deuxième section
 #deuxiemesection {
     padding-top: 5rem;
     padding-bottom: 5rem;
-
+    // Conteneur Partie Vidéo
     #contvideo {
         width: 60%;
         margin: auto;
@@ -61,7 +62,7 @@
             }
         }
     }
-
+    // Conteneur Partie Articles
     #contarticles {
         width: 70%;
         margin: auto;
@@ -80,7 +81,7 @@
             flex-direction: column;
             align-items: center;
         }
-
+        // Conteneur Articles avec photo
         #contarticlephoto {
             width: 60%;
             display: flex;
@@ -129,7 +130,7 @@
                 }
             }
         }
-
+        // Conteneur article sans photo
         #articlesansphoto {
             width: 40%;
             display: flex;

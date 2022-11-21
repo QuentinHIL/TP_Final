@@ -1,3 +1,4 @@
+// Début Section 1
 #premieresection {
     padding-top: 5%;
     background-image: url(./assets/image_section1.png);
@@ -20,7 +21,7 @@
         background-position: right center;
         background-position-y: 40%;
     }
-
+    // Conteneur Partie gauche
     #contgauche {
         padding-bottom: 5%;
         width: 55%;
@@ -59,7 +60,7 @@
                 width: 100%;
             }
         }
-
+        // Conteneur deux boutons Try Now + Get A Demo
         #contboutonsectionune {
             width: 80%;
             display: flex;

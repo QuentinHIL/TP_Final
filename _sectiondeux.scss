@@ -133,7 +133,9 @@
                         @include raleway800;
                         text-decoration: none;
                         color: $prim;
+                        position: relative;
                     }
+                    @include surligne;
                 }
             }
         }

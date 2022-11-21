@@ -269,12 +269,12 @@ header #contbouton button:hover {
 }
 @media only screen and (max-width: 1024px) {
   #premieresection #contgauche {
-    width: 60%;
+    width: 65%;
   }
 }
 @media only screen and (max-width: 768px) {
   #premieresection #contgauche {
-    width: 70%;
+    width: 60%;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -290,7 +290,7 @@ header #contbouton button:hover {
 }
 @media only screen and (max-width: 768px) {
   #premieresection #contgauche h2 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -314,7 +314,22 @@ header #contbouton button:hover {
   display: flex;
   justify-content: space-between;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
+  #premieresection #contgauche #contboutonsectionune {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #premieresection #contgauche #contboutonsectionune {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #premieresection #contgauche #contboutonsectionune {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 560px) {
   #premieresection #contgauche #contboutonsectionune {
     flex-direction: column;
     width: 50%;
@@ -337,6 +352,11 @@ header #contbouton button:hover {
 @media only screen and (max-width: 992px) {
   #premieresection #contgauche #contboutonsectionune #trynow {
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #premieresection #contgauche #contboutonsectionune #trynow {
+    font-size: 0.75rem;
   }
 }
 #premieresection #contgauche #contboutonsectionune #trynow:hover {
@@ -376,6 +396,11 @@ header #contbouton button:hover {
 @media only screen and (max-width: 992px) {
   #premieresection #contgauche #contboutonsectionune #getademo {
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #premieresection #contgauche #contboutonsectionune #getademo {
+    font-size: 0.75rem;
   }
 }
 #premieresection #contgauche #contboutonsectionune #getademo:hover {

@@ -28,6 +28,26 @@ header #contlogotitre {
     width: 50%;
   }
 }
+header #contlogotitre img:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
 header #contlogotitre h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
@@ -40,6 +60,26 @@ header #contlogotitre h1 {
 @media only screen and (max-width: 700px) {
   header #contlogotitre h1 {
     font-size: 1rem;
+  }
+}
+header #contlogotitre h1:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
   }
 }
 header #contlogotitre h1 a {
@@ -174,6 +214,26 @@ header #contbouton button {
     font-size: 0.75rem;
   }
 }
+header #contbouton button:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
 
 #premieresection {
   padding-top: 5%;
@@ -278,6 +338,26 @@ header #contbouton button {
     font-size: 1rem;
   }
 }
+#premieresection #contgauche #contboutonsectionune #trynow:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
 #premieresection #contgauche #contboutonsectionune #getademo {
   font-size: 1.25rem;
   padding-top: 3%;
@@ -295,6 +375,26 @@ header #contbouton button {
 @media only screen and (max-width: 992px) {
   #premieresection #contgauche #contboutonsectionune #getademo {
     font-size: 1rem;
+  }
+}
+#premieresection #contgauche #contboutonsectionune #getademo:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
   }
 }
 
@@ -364,6 +464,26 @@ header #contbouton button {
 @media only screen and (max-width: 700px) {
   #deuxiemesection #contvideo button {
     font-size: 0.75rem;
+  }
+}
+#deuxiemesection #contvideo button:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
   }
 }
 #deuxiemesection #contarticles {
@@ -664,6 +784,26 @@ header #contbouton button {
     font-size: 0.75rem;
   }
 }
+#troisiemesection #partiecentrale div button:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
 #troisiemesection #partiecentrale span {
   width: 60%;
   margin: auto;
@@ -802,6 +942,26 @@ header #contbouton button {
 @media only screen and (max-width: 700px) {
   #quatriemesection #contsectionquatre button {
     font-size: 0.75rem;
+  }
+}
+#quatriemesection #contsectionquatre button:hover {
+  -webkit-animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.75);
   }
 }
 

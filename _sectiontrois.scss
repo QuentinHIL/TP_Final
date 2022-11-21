@@ -176,6 +176,9 @@
                     width: 60%;
                     font-size: 0.75rem;
                 }
+                &:hover{
+                    @include animationbouton;
+                }
             }
         }
 

@@ -48,3 +48,28 @@
         opacity: 1;
     }
 }
+@mixin animationbouton {
+
+        -webkit-animation: scale-down-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: scale-down-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        @-webkit-keyframes scale-down-center {
+            0% {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+            100% {
+              -webkit-transform: scale(0.75);
+                      transform: scale(0.75);
+            }
+          }
+          @keyframes scale-down-center {
+            0% {
+              -webkit-transform: scale(1);
+                      transform: scale(1);
+            }
+            100% {
+              -webkit-transform: scale(0.75);
+                      transform: scale(0.75);
+            }
+          }
+        }

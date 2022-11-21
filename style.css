@@ -252,13 +252,14 @@ header #contbouton button:hover {
 }
 @media only screen and (max-width: 768px) {
   #premieresection {
-    background-size: contain;
+    background-size: 70%;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 560px) {
   #premieresection {
     background-position: right center;
     background-position-y: 40%;
+    background-size: contain;
   }
 }
 #premieresection #contgauche {
@@ -278,7 +279,7 @@ header #contbouton button:hover {
 }
 @media only screen and (max-width: 560px) {
   #premieresection #contgauche {
-    width: 100%;
+    width: 85%;
   }
 }
 #premieresection #contgauche h2 {
